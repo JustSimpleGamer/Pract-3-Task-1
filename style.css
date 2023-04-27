@@ -1,0 +1,41 @@
+body{
+    background-color: grey;
+}
+
+.tittle{
+    color: burlywood;
+    text-align: center;
+    font-size: 48px;
+    text-shadow: 0px 3px 2px #4d4d4d, 0px -2px 2px white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.box{
+    text-align: justify;
+    box-sizing: border-box;
+    margin-left: 105px;
+    margin-top: 4%;
+    vertical-align: top;
+    display: inline-block;
+    width: 500px;
+    height: 400px;
+    background-color: burlywood;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 5%;
+    font-family: "Comic Sans MS";
+    line-height: 20px;
+
+}
+
+.box:before{
+    content: "";
+    position: absolute;
+    margin-left: 123px;
+    margin-top: -25px;
+    border-radius: 15% 15% 5% 5%;
+    width: 200px;
+    height:40px;
+    background-color: #333333;
+}
